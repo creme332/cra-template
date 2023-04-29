@@ -1,16 +1,16 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from "./App";
-import Profile from "./Profile";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
 
 const RouteSwitch = () => {
   return (
     <BrowserRouter
-      basename="/cra-template/build" // comment this line if running Jest tests
+    // basename="/subdirectory/cra-template/build" // comment this line if your project is NOT served from a sub-directory
     >
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );
