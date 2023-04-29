@@ -9,6 +9,7 @@ An opiniated template to set up a React project.
 - HTML with appropriate SEO tags
 - React Router v6
 - Meyer CSS Reset
+- CSS modules
 - Useful packages such as `uniqid` 
 
 #  🛠 Installation
@@ -25,6 +26,8 @@ Install dependencies:
 ```sh
 npm install
 ```
+
+**IMPORTANT** : If your app is served from a sub-directory on your server, you’ll want to set `basename` in `RouteSwitch.js` to the sub-directory. A properly formatted basename should have a leading slash, but no trailing slash.
 
 # Usage
 
