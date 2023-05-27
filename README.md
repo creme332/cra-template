@@ -18,8 +18,11 @@ Clone project:
 ```sh
 git clone git@github.com:creme332/cra-template.git
 ```
->⚠ If you are placing this project in another project already having a `.git` folder, delete the `.git` folder in this project to prevent interference.
 
+## Placing project inside another project
+⚠ If you are placing this project in another Git project `.git` folder, delete the `.git` folder in this project to prevent interference.
+
+Update/delete the LICENSE file as well.
 In `package.json`, update project name, description and homepage.
 
 Install dependencies:
