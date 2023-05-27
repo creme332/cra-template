@@ -1,9 +1,12 @@
 {
-  "homepage": "http://creme332.github.io/cra-template/build/",
   "name": "template",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@mantine/core": "^6.0.11",
+    "@mantine/hooks": "^6.0.11",
+    "@tabler/icons-react": "^2.20.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.0",
